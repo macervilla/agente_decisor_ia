@@ -1,0 +1,33 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Variables sensibles
+.env
+.env.*
+!.env.example
+
+# Cobertura
+.coverage
+coverage.xml
+htmlcov/
+
+# ChromaDB local
+chroma_db/
+
+# React / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
